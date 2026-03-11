@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-dark text-white font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-dark;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-full;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-sm border border-white/10 rounded-2xl;
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary to-secondary text-white font-semibold px-6 py-3 rounded-full hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-primary/30;
+  }
+  .btn-outline {
+    @apply border-2 border-primary/50 text-white font-semibold px-6 py-3 rounded-full hover:border-primary hover:bg-primary/10 transition-all duration-300;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-heading font-bold;
+  }
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .animated-gradient-bg {
+    background: linear-gradient(135deg, #0A0A0F 0%, #13131A 30%, #1a1040 60%, #0A0A0F 100%);
+    background-size: 300% 300%;
+    animation: gradient-x 8s ease infinite;
+  }
+  .hero-gradient {
+    background: radial-gradient(ellipse at top left, rgba(108, 99, 255, 0.3) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom right, rgba(0, 212, 255, 0.2) 0%, transparent 50%),
+                #0A0A0F;
+  }
+  .glow-primary {
+    box-shadow: 0 0 30px rgba(108, 99, 255, 0.3);
+  }
+  .glow-secondary {
+    box-shadow: 0 0 30px rgba(0, 212, 255, 0.3);
+  }
+}

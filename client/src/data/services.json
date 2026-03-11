@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "title": "Web Development",
+    "shortDescription": "Professional web solutions using PHP, Laravel, and WordPress.",
+    "description": "We build robust, scalable web applications using industry-leading technologies. Our team specializes in PHP, Laravel framework, and WordPress CMS to deliver custom websites and web portals tailored to your business needs.",
+    "category": "Web Development",
+    "icon": "Globe",
+    "techTags": ["PHP", "Laravel", "WordPress", "MySQL"],
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": "Full Stack Development",
+    "shortDescription": "End-to-end development with React, Node.js, and modern tools.",
+    "description": "Our full stack development service covers everything from intuitive React frontends to powerful Node.js backends. We create complete web applications with RESTful APIs, database integration, and cloud deployment.",
+    "category": "Web Development",
+    "icon": "Layers",
+    "techTags": ["React", "Node.js", "MongoDB", "Express"],
+    "featured": true
+  },
+  {
+    "id": "3",
+    "title": "Android App Development",
+    "shortDescription": "Native and hybrid Android applications for your business.",
+    "description": "We design and develop high-performance Android applications that engage users and drive business growth. From UI/UX design to Play Store deployment, we manage the entire lifecycle.",
+    "category": "Mobile",
+    "icon": "Smartphone",
+    "techTags": ["Java", "Android", "Kotlin", "Firebase"],
+    "featured": true
+  },
+  {
+    "id": "4",
+    "title": "Digital Marketing",
+    "shortDescription": "SEO, SMM, and online presence management for your brand.",
+    "description": "Grow your online presence with our comprehensive digital marketing services including SEO, Social Media Marketing, Google Ads management, content marketing, and analytics reporting.",
+    "category": "Digital Marketing",
+    "icon": "TrendingUp",
+    "techTags": ["SEO", "SMM", "Google Ads", "Analytics"],
+    "featured": false
+  },
+  {
+    "id": "5",
+    "title": "PHP Training",
+    "shortDescription": "Comprehensive PHP training from basics to advanced concepts.",
+    "description": "Our PHP training program covers everything from core PHP fundamentals to advanced topics like OOP, MVC architecture, Laravel framework, and database integration with hands-on projects.",
+    "category": "Training",
+    "icon": "Code",
+    "techTags": ["PHP", "MySQL", "OOP", "MVC", "Laravel"],
+    "featured": false
+  },
+  {
+    "id": "6",
+    "title": "Java Training",
+    "shortDescription": "Core Java and Advanced Java training with real projects.",
+    "description": "Master Java programming with our structured training program covering Core Java, Advanced Java (JDBC, Servlets, JSP), Spring Framework, and Hibernate ORM with placement support.",
+    "category": "Training",
+    "icon": "Coffee",
+    "techTags": ["Core Java", "Advanced Java", "Spring", "Hibernate"],
+    "featured": false
+  },
+  {
+    "id": "7",
+    "title": "Python Training",
+    "shortDescription": "Python programming from fundamentals to data science basics.",
+    "description": "Learn Python programming with our comprehensive course covering core syntax, OOP, Django framework, and an introduction to data science with NumPy and Pandas.",
+    "category": "Training",
+    "icon": "Terminal",
+    "techTags": ["Python", "Django", "NumPy", "Pandas"],
+    "featured": false
+  },
+  {
+    "id": "8",
+    "title": "WordPress Development & Training",
+    "shortDescription": "Build and manage WordPress websites with expert guidance.",
+    "description": "We offer both WordPress development services and training programs covering theme development, plugin creation, WooCommerce, and SEO optimization.",
+    "category": "Web Development",
+    "icon": "Layout",
+    "techTags": ["WordPress", "WooCommerce", "Elementor", "PHP"],
+    "featured": false
+  },
+  {
+    "id": "9",
+    "title": "Oracle Database Training",
+    "shortDescription": "Comprehensive Oracle Database administration and SQL training.",
+    "description": "Our Oracle Database training covers SQL fundamentals, PL/SQL programming, database design, stored procedures, triggers, and performance tuning.",
+    "category": "Training",
+    "icon": "Database",
+    "techTags": ["Oracle", "SQL", "PL/SQL", "DBA"],
+    "featured": false
+  },
+  {
+    "id": "10",
+    "title": "IT Placement Support",
+    "shortDescription": "100% placement assistance for IT graduates and trainees.",
+    "description": "Our dedicated placement support program helps students and fresh graduates secure their first IT job through resume building, mock interviews, and direct placement in partner companies.",
+    "category": "IT Services",
+    "icon": "Briefcase",
+    "techTags": ["Resume Building", "Mock Interviews", "Soft Skills", "Placement"],
+    "featured": true
+  }
+]
